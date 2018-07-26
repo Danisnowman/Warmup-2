@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#Xcode
+.DS_Store
+build
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
