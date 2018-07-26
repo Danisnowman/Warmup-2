@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include "commonFunctions.h"
 #include "structs.h"
-#define savedPointMaxLength 3
+#define savedPointMaxLength 20
 
 int main(int argc, const char * argv[]) {
     struct savePoint savedPoint[savedPointMaxLength];
