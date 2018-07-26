@@ -22,6 +22,7 @@ int main(int argc, const char * argv[]) {
         printf("Point X: %lf\n", savedPoint[i].x);
         printf("Point Y: %lf\n", savedPoint[i].y);
         printf("Point Z: %lf\n", savedPoint[i].z);
+        printf("\n");
     }
     return 0;
 }
