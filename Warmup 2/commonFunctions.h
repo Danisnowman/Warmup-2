@@ -27,11 +27,11 @@ int askInt(char text[maxLength]){           //Asks user for a integer, returns s
     return input;
 }
 
-/*char askChar(char text[maxLength]){       //Asks user for a char array, returns said char array. NOTE: CURRENTLY NOT WORKING
+char askChar(char text[maxLength]){       //Asks user for a char array, returns said char array. NOTE: CURRENTLY NOT WORKING
  char input[maxLength];
  printf("%s", text);
  scanf("%s", &input[maxLength]);
- return input;
- }*/
+ return input[maxLength-1];
+ }
 
 #endif /* commonFunctions_h */
