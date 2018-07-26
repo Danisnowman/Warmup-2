@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include "commonFunctions.c"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
